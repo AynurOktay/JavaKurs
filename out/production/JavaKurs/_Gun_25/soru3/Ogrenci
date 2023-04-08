@@ -1,0 +1,11 @@
+package _Gun_25.soru3;
+
+public class NotDefteri {
+    public static void main(String[] args) {
+
+    }
+}
+class Ogrenci ;
+int okulNo;
+String tamAdi;
+int notu;

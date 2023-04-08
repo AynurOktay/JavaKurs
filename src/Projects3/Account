@@ -1,0 +1,9 @@
+package Projects3;
+
+public class Account {
+
+    int HesapNo1;
+    int HesapNo2;
+    int fund;
+
+}

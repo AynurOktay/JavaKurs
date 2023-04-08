@@ -1,0 +1,32 @@
+package _Gun_25;
+
+   //classlarin tanimlandigi yer-1
+
+public class OOP_2 {
+    public static void main(String[] args) {
+
+   //ana programin yazildigi yer
+
+   Araba benimArabam=new Araba(); //araba tipin adi(class),benim arabam object
+    benimArabam.marka="BMW";
+    benimArabam.renk="beyaz";
+    benimArabam.motorHacmi=1600;
+    benimArabam.yili=2000;
+
+        System.out.println("benimArabam = " + benimArabam.marka);
+        System.out.println("benimArabam = " + benimArabam.renk);
+        System.out.println("benimArabam.motorHacmi = " + benimArabam.motorHacmi);
+        System.out.println("benimArabam = " + benimArabam.yili);
+
+    }
+
+    //metodlarin yazildigi yer
+}
+    //class-tiplerin tanimlandigi yer-2
+
+    class Araba{
+          String renk;
+          int  yili;
+          String marka;
+          int motorHacmi;
+    }
